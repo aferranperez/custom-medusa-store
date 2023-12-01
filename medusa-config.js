@@ -49,6 +49,7 @@ const plugins = [
       autoRebuild: true,
       develop: {
         open: process.env.OPEN_BROWSER !== "false",
+        // port: 7002
       },
     },
   },
